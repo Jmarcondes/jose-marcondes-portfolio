@@ -1,0 +1,16 @@
+export const codeLines = [
+  "const developer = {",
+  '  name: "José Marcondes",',
+  '  role: "Salesforce Developer",',
+  '  location: "Brazil",',
+  "  stack: [",
+  '    "Salesforce",',
+  '    "Apex",',
+  '    "Lightning Web Components",',
+  '    "JavaScript",',
+  '    "React"',
+  "  ],",
+  '  currentlyLearning: "AI Tools & React",',
+  "  openToWork: true",
+  "};",
+];
