@@ -1,6 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { FaGithub, FaLinkedin } from "react-icons/fa6";
-import { MdOutlineEmail, MdOutlineChat, MdArrowOutward } from "react-icons/md";
+import {
+  MdOutlineEmail,
+  MdOutlineChat,
+  MdKeyboardArrowDown,
+} from "react-icons/md";
 import AvailabilityBadge from "./AvailabilityBadge";
 
 export default function HeroContent() {
@@ -17,7 +21,7 @@ export default function HeroContent() {
           <span className="text-primary">José Marcondes</span>
         </h1>
 
-        <h2 className="mt-5 text-2xl font-medium lg:text-3xl text-primary-foreground flex items-center gap-2">
+        <h2 className="mt-5 flex items-center gap-2 text-2xl font-medium text-primary-foreground lg:text-3xl">
           Salesforce Developer
         </h2>
 
@@ -31,46 +35,66 @@ export default function HeroContent() {
           <Button
             size="lg"
             className="
-                    transition-all
-                    duration-300
-                    hover:scale-105
-                    hover:shadow-lg
-                    hover:shadow-blue-500/30
-                    "
+              transition-all
+              duration-300
+              hover:scale-105
+              hover:shadow-lg
+              hover:shadow-blue-500/30
+            "
           >
-            Ver Projetos
-            <MdArrowOutward size={20} />
+            <a
+              href="#projects"
+              className="
+                flex
+                items-center
+                gap-2
+              "
+            >
+              Ver Projetos
+              <MdKeyboardArrowDown size={22} />
+            </a>
           </Button>
 
           <Button
             variant="outline"
             size="lg"
             className="
-                    transition-all
-                    duration-300
-                    hover:bg-white/5
-                    hover:border-primary
-                    "
+              transition-all
+              duration-300
+              hover:bg-white/5
+              hover:border-primary
+            "
           >
-            Entrar em Contato
-            <MdOutlineChat size={20} />
+            <a
+              href="#contact"
+              className="
+                flex
+                items-center
+                gap-2
+              "
+            >
+              Entrar em Contato
+              <MdOutlineChat size={20} />
+            </a>
           </Button>
         </div>
       </div>
 
       <div className="mt-8 flex items-center gap-6">
         <a
-          href="https://linkedin.com/in/seu-link"
+          href="https://www.linkedin.com/in/jmarcondesjr/"
           target="_blank"
           rel="noopener noreferrer"
           className="
-                    flex items-center gap-2
-                    text-muted-foreground
-                    transition-all
-                    duration-300
-                    hover:-translate-y-1
-                    hover:text-primary
-                    "
+            flex
+            items-center
+            gap-2
+            text-muted-foreground
+            transition-all
+            duration-300
+            hover:-translate-y-1
+            hover:text-primary
+          "
           aria-label="LinkedIn"
         >
           <FaLinkedin size={22} />
@@ -78,17 +102,19 @@ export default function HeroContent() {
         </a>
 
         <a
-          href="https://github.com/seu-usuario"
+          href="https://github.com/Jmarcondes"
           target="_blank"
           rel="noopener noreferrer"
           className="
-                    flex items-center gap-2
-                    text-muted-foreground
-                    transition-all
-                    duration-300
-                    hover:-translate-y-1
-                    hover:text-primary
-                    "
+            flex
+            items-center
+            gap-2
+            text-muted-foreground
+            transition-all
+            duration-300
+            hover:-translate-y-1
+            hover:text-primary
+          "
           aria-label="GitHub"
         >
           <FaGithub size={22} />
@@ -96,15 +122,17 @@ export default function HeroContent() {
         </a>
 
         <a
-          href="mailto:seu@email.com"
+          href="mailto:jose.marcondes.jr@gmail.com"
           className="
-                    flex items-center gap-2
-                    text-muted-foreground
-                    transition-all
-                    duration-300
-                    hover:-translate-y-1
-                    hover:text-primary
-                    "
+            flex
+            items-center
+            gap-2
+            text-muted-foreground
+            transition-all
+            duration-300
+            hover:-translate-y-1
+            hover:text-primary
+          "
           aria-label="Email"
         >
           <MdOutlineEmail size={22} />
