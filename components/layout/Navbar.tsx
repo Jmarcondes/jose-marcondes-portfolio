@@ -82,7 +82,7 @@ export default function Navbar() {
 
             <li>
               <a href="#skills" className="transition hover:text-primary">
-                Skills
+                Conhecimentos
               </a>
             </li>
 

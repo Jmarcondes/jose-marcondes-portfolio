@@ -34,8 +34,6 @@ export default function DeveloperReadme() {
           py-4
         "
       >
-        <div className="pt-2" />
-
         <div className="flex items-center gap-3">
           <MdDescription size={20} className="text-primary" />
 
@@ -75,7 +73,7 @@ export default function DeveloperReadme() {
 
         {/* Current Focus */}
         <div>
-          <h4 className="mb-4 text-lg font-semibold">
+          <h4 className="mt-3 mb-4 text-lg font-semibold">
             <span className="mr-2 text-primary">##</span>
             Current Focus
           </h4>
@@ -103,7 +101,7 @@ export default function DeveloperReadme() {
 
         {/* Philosophy */}
         <div>
-          <h4 className="mb-4 text-lg font-semibold">
+          <h4 className="mt-3 mb-4 text-lg font-semibold">
             <span className="mr-2 text-primary">##</span>
             Philosophy
           </h4>
