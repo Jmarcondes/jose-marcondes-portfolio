@@ -19,13 +19,13 @@ export default function About() {
                     left-1/2
                     top-1/2
                     -z-10
-                    h-[500px]
-                    w-[500px]
+                    h-[700px]
+                    w-[700px]
                     -translate-x-1/2
                     -translate-y-1/2
                     rounded-full
-                    bg-primary/20
-                    blur-[120px]
+                    bg-primary/15
+                    blur-[180px]
                   "
       />
       <Container>

@@ -17,6 +17,9 @@ export default function DeveloperReadme() {
         duration-300
         hover:-translate-y-2
         hover:border-blue-500/30
+        hover:shadow-blue-500/10
+        shadow-2xl
+        max-w-xl
       "
     >
       {/* Header */}
@@ -31,6 +34,8 @@ export default function DeveloperReadme() {
           py-4
         "
       >
+        <div className="pt-2" />
+
         <div className="flex items-center gap-3">
           <MdDescription size={20} className="text-primary" />
 
@@ -47,12 +52,12 @@ export default function DeveloperReadme() {
           "
         >
           Last updated: Today
-          <span className="h-2 w-2 rounded-full bg-green-500" />
+          <span className="h-1.5 w-1.5 rounded-full bg-green-500" />
         </div>
       </div>
 
       {/* Markdown */}
-      <div className="space-y-8 p-8 font-mono text-[15px] leading-8">
+      <div className="px-10 py-9 font-mono text-[15px] leading-8">
         {/* Título */}
         <div>
           <h3 className="text-2xl font-bold text-foreground">

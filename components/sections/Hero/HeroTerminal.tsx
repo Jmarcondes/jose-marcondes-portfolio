@@ -16,6 +16,8 @@ export default function HeroTerminal() {
         duration-300
         hover:-translate-y-2
         hover:border-blue-500/30
+        hover:shadow-blue-500/10
+        shadow-2xl
       "
     >
       <div className="flex items-center border-b border-white/10 px-6 py-4">
