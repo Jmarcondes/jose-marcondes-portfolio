@@ -10,9 +10,14 @@ export default function SkillGroup({ title, skills }: SkillGroupProps) {
         rounded-3xl
         border
         border-white/10
-        bg-white/[0.03]
+        bg-white/[0.05]
         p-6
-        backdrop-blur-xl
+        backdrop-blur-2xl
+        shadow-2xl
+        transition-all
+        duration-300
+        hover:-translate-y-1
+        hover:border-primary/40
       "
     >
       <h3 className="text-lg font-semibold">{title}</h3>

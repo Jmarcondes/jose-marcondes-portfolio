@@ -42,4 +42,27 @@ export const projects: Project[] = [
 
     github: "https://github.com",
   },
+  {
+    id: "portfolio2",
+
+    name: "Portfólio Pessoal2",
+
+    category: "Pessoal",
+
+    image: "/projects/portfolio.png",
+
+    description:
+      "Portfólio desenvolvido para apresentar minha trajetória profissional, experiências e projetos utilizando uma experiência visual inspirada no ecossistema Apple.",
+
+    role: [
+      "Arquitetura da aplicação",
+      "Desenvolvimento Front-end",
+      "UI/UX",
+      "Responsividade",
+    ],
+
+    technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+
+    github: "https://github.com",
+  },
 ];

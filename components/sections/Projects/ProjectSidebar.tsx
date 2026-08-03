@@ -20,7 +20,9 @@ export default function ProjectSidebar({
         rounded-3xl
         border
         border-white/10
-        bg-white/[0.03]
+        bg-white/[0.05]
+        backdrop-blur-2xl
+        shadow-xl
         p-4
         backdrop-blur-xl
         md:w-72

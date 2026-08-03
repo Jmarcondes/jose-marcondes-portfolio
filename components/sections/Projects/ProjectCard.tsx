@@ -8,14 +8,19 @@ export default function ProjectCard({ project }: ProjectCardProps) {
   return (
     <div
       className="
-        flex-1
-        overflow-hidden
-        rounded-3xl
-        border
-        border-white/10
-        bg-white/[0.03]
-        backdrop-blur-xl
-      "
+            flex-1
+            overflow-hidden
+            rounded-3xl
+            border
+            border-white/10
+            bg-white/[0.05]
+            backdrop-blur-2xl
+            shadow-2xl
+            transition-all
+            duration-300
+            hover:-translate-y-2
+            hover:border-primary/40
+        "
     >
       {/* Banner */}
 
@@ -94,6 +99,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
 
       <div className="space-y-8 p-8">
         {/* Sobre */}
+
         <div>
           <h3 className="text-lg font-semibold">Sobre o projeto</h3>
 
@@ -111,6 +117,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         <div className="border-t border-white/10" />
 
         {/* Participação */}
+
         <div>
           <h3 className="mb-4 text-lg font-semibold">Minha participação</h3>
 
@@ -143,6 +150,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         <div className="border-t border-white/10" />
 
         {/* Tecnologias */}
+
         <div>
           <h3 className="mb-4 text-lg font-semibold">Tecnologias</h3>
 
@@ -170,6 +178,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         <div className="border-t border-white/10" />
 
         {/* Links */}
+
         {(project.github || project.demo) && (
           <div>
             <h3 className="mb-4 text-lg font-semibold">Links</h3>
